@@ -290,19 +290,19 @@ public class RobotTemplate extends IterativeRobot {
      * DON'T CALL THIS PERIODICALLY. CALL THIS ONCE. Drives towards the ball
      * using the camera outputs
      */
-    private void driveTowardsBall() {
+   /* private void driveTowardsBall() {
         double dist = SmartDashboard.getNumber("BallDistance");//reads the camera distance output
         driveDistance(dist);
-    }
+    }*/
 
     /**
      * DON'T CALL THIS PERIODICALLY. CALL THIS ONCE. Automagically resets the
      * gyro. Drives towards the ball using camera output.
      */
-    private void turnTowardsBall() {
+    /*private void turnTowardsBall() {
         double angle = SmartDashboard.getNumber("BallAngle");//reads the camera angle output
         driveAngle(angle);
-    }
+    }*/
 
     /**
      * This function is called periodically during operator control. Drives the
